@@ -1,4 +1,6 @@
-app_src = ['main.cpp']
+app_src = files([
+  'main.cpp'
+])
 app_exe = executable('app',
   sources : app_src,
   include_directories : inc_dir,
