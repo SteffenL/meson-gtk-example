@@ -1,0 +1,4 @@
+# Ignore everything except for the files provided in this repository
+*
+!.gitignore
+!gtkmm.wrap

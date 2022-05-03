@@ -1,0 +1,8 @@
+[wrap-file]
+directory = gtkmm-4.6.1
+source_url = https://download.gnome.org/sources/gtkmm/4.6/gtkmm-4.6.1.tar.xz
+source_filename = gtkmm-4.6.1.tar.xz
+source_hash = 0d5efeca9ec64fdd530bb8226c6310ac99549b3dd9604d6e367639791af3d1e0
+
+[provide]
+dependency_names = gtkmm-4.0
