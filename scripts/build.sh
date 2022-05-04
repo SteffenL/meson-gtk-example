@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 set -e
-meson compile -C builddir
+meson compile -C builddir app
