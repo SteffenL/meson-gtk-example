@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "cppdbg",
+            "name": "launch-app",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/builddir/src/app/app",
+            "preLaunchTask": "Meson: Build app"
+        }
+    ]
+}
