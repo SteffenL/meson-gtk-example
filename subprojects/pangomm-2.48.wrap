@@ -1,8 +1,0 @@
-[wrap-file]
-directory = pangomm-2.50.0
-source_url = https://download.gnome.org/sources/pangomm/2.50/pangomm-2.50.0.tar.xz
-source_filename = pangomm-2.50.0.tar.xz
-source_hash = a27aa77e017b9afce9e751d85bd1cf890abbb3a58bf59d0fac917eef82db3b5b
-
-[provide]
-dependency_names = pangomm-2.50

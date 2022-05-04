@@ -1,7 +1,7 @@
-project('gtkmm-example', 'cpp',
+project('gtk-example', 'cpp',
   version : '0.1')
 
-gtkmm_dep = dependency('gtkmm-4.0')
+gtk4_dep = dependency('gtk4')
 
 inc_dir = include_directories('include')
 
