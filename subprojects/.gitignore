@@ -1,6 +1,7 @@
 # Ignore everything except for the files provided in this repository
 *
 !.gitignore
+!cairomm-1.16.wrap
 !epoxy.wrap
 !glib.wrap
 !glibmm-2.68.wrap
