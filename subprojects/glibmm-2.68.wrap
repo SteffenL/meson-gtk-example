@@ -1,0 +1,8 @@
+[wrap-file]
+directory = glibmm-2.72.0
+source_url = https://download.gnome.org/sources/glibmm/2.72/glibmm-2.72.0.tar.xz
+source_filename = glibmm-2.72.0.tar.xz
+source_hash = 782924bf136496f3878fdc2a0aa9ef40f0c515e2c3e054caffa5d2e52380c71e
+
+[provide]
+dependency_names = glibmm-2.72

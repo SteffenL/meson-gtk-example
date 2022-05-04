@@ -1,0 +1,8 @@
+[wrap-file]
+directory = libsigc++-3.2.0
+source_url = https://github.com/libsigcplusplus/libsigcplusplus/releases/download/3.2.0/libsigc++-3.2.0.tar.xz
+source_filename = libsigc++-3.2.0.tar.xz
+source_hash = 8cdcb986e3f0a7c5b4474aa3c833d676e62469509f4899110ddf118f04082651
+
+[provide]
+dependency_names = sigc++-3.0

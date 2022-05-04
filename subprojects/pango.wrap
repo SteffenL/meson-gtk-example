@@ -1,0 +1,8 @@
+[wrap-file]
+directory = pango-1.50.7
+source_url = https://download.gnome.org/sources/pango/1.50/pango-1.50.7.tar.xz
+source_filename = pango-1.50.7.tar.xz
+source_hash = c07e57147b254cef92ce80a0378dc0c02a4358e7de4702e9f403069781095fe2
+
+[provide]
+dependency_names = pango-1.50

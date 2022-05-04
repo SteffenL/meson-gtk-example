@@ -1,4 +1,12 @@
 # Ignore everything except for the files provided in this repository
 *
 !.gitignore
+!epoxy.wrap
+!glib.wrap
+!glibmm-2.68.wrap
+!graphene.wrap
+!gtk4.wrap
 !gtkmm.wrap
+!pango.wrap
+!pangomm-2.48.wrap
+!sigc++-3.0.wrap
