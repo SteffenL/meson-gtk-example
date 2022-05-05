@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/es/langn/examples/GtkExampleApp">
+    <file compressed="true">main.ui</file>
+  </gresource>
+</gresources>
