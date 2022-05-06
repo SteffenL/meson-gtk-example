@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-#meson subprojects download sigc++-3.0 graphene gtk4
+meson subprojects download sigc++-3.0 graphene gtk4
 
 compile_type=${1}
 cross_file=${2}
@@ -24,4 +24,4 @@ if [[ "${compile_type}" = "cross" ]]; then
 fi
 
 meson setup builddir "${setup_args[@]}"
-#meson compile -C builddir app
+meson compile -C builddir app
