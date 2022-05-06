@@ -1,8 +1,8 @@
 [wrap-file]
-directory = epoxy-1.5.9
+directory = libepoxy-1.5.9
 source_url = https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.9.tar.xz
 source_filename = libepoxy-1.5.9.tar.xz
 source_hash = d168a19a6edfdd9977fef1308ccf516079856a4275cf876de688fb7927e365e4
 
 [provide]
-dependency_names = epoxy-1.5
+dependency_names = libepoxy
