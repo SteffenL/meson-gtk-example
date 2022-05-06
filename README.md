@@ -7,5 +7,5 @@
 ./scripts/build.sh
 
 # Cross-compile to Windows with mingw32-w64
-./scripts/build.sh cross/mingw
+./scripts/build.sh cross mingw
 ```
