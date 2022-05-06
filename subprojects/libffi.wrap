@@ -1,0 +1,5 @@
+[wrap-git]
+directory=libffi
+url=https://gitlab.freedesktop.org/gstreamer/meson-ports/libffi.git
+revision=f0215d170d9088792a56f2866a3dd109d416eee6
+depth=1

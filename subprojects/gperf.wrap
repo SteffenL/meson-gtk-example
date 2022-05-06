@@ -1,0 +1,9 @@
+[wrap-git]
+directory=gperf
+url=https://gitlab.freedesktop.org/tpm/gperf.git
+push-url=https://gitlab.freedesktop.org/tpm/gperf.git
+revision=705c85fee6254ac5eb0df7de6a8ca6f567f34472
+depth=1
+
+[provide]
+program_names=gperf

@@ -1,9 +1,18 @@
 # Ignore everything except for the files provided in this repository
 *
 !.gitignore
-!epoxy.wrap
+!cairo.wrap
+!fribidi.wrap
+!fontconfig.wrap
+!gdk-pixbuf.wrap
+!gi-docgen.wrap
 !glib.wrap
 !graphene.wrap
+!gperf.wrap
 !gtk4.wrap
+!harfbuzz.wrap
+!libepoxy.wrap
+!libffi.wrap
 !pango.wrap
+!pixman.wrap
 !sigc++-3.0.wrap
