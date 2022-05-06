@@ -2,14 +2,7 @@
 
 ## Compilation
 
-### Native
-
 ```
-./scripts/build.sh
-```
-
-### Linux -> Windows
-
-```
-./scripts/build.sh --cross-file profiles/cross/mingw.ini
+./scripts/build.sh native
+./scripts/build.sh cross mingw
 ```
