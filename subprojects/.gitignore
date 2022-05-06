@@ -1,5 +1,7 @@
 # Ignore everything except for the files provided in this repository
 *
+!/packagefiles/
+!/packagefiles/**
 !.gitignore
 !cairo.wrap
 !fribidi.wrap
