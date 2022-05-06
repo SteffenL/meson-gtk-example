@@ -1,7 +1,6 @@
 [wrap-git]
 directory=cairo
-url=https://gitlab.freedesktop.org/cairo/cairo.git
-push-url=ssh://git@gitlab.freedesktop.org:cairo/cairo.git
-revision=455a4cca5472a309d036b6393f1db0dc4403d303
+url=https://gitlab.freedesktop.org/SteffenL/cairo.git
+push-url=ssh://git@gitlab.freedesktop.org:SteffenL/cairo.git
+revision=8fda485e7e696a78d35a60fcb204e9b2fc4d4a73
 depth=1
-patch_filename=cairo_patch.tar.gz
