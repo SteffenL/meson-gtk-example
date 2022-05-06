@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 set -e
-meson subprojects download sigc++-3.0 graphene gtk4
 
 compile_type=${1}
 cross_file=${2}
