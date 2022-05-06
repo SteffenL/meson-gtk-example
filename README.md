@@ -3,6 +3,9 @@
 ## Compilation
 
 ```
-./scripts/build.sh native
-./scripts/build.sh cross mingw
+# Native
+./scripts/build.sh
+
+# Cross-compile to Windows with mingw32-w64
+./scripts/build.sh cross/mingw
 ```
