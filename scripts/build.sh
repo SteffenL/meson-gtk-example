@@ -1,26 +1,17 @@
 #!/usr/bin/env bash
 set -e
 
-compile_type=${1}
-cross_file=${2}
+files=("${@}")
+build_dir=builddir
 declare -a setup_args
-
-if [[ -z "${compile_type}" ]]; then
-    compile_type=native
-fi
-
-if [[ "${compile_type}" = "cross" && -z "${cross_file}" ]]; then
-    echo "Please specify a cross file."
-    exit 1
-fi
 
 setup_args+=("--${compile_type}-file")
 setup_args+=("profiles/default.ini")
 
-if [[ "${compile_type}" = "cross" ]]; then
+for file in ${files[@]}; do
     setup_args+=("--${compile_type}-file")
-    setup_args+=("profiles/cross/${cross_file}.ini")
-fi
+    setup_args+=("profiles/${file}.ini")
+done
 
-meson setup builddir "${setup_args[@]}"
-meson compile -C builddir app
+meson setup "${build_dir}" "${setup_args[@]}"
+meson compile -C "${build_dir}" app
