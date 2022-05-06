@@ -4,4 +4,4 @@ url=https://gitlab.freedesktop.org/cairo/cairo.git
 push-url=ssh://git@gitlab.freedesktop.org:cairo/cairo.git
 revision=455a4cca5472a309d036b6393f1db0dc4403d303
 depth=1
-patch_filename=cairo_mingw_fix.patch
+patch_filename=cairo_patch.tar.gz
