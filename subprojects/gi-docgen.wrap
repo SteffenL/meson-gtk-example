@@ -1,6 +1,2 @@
-[wrap-git]
-directory=gi-docgen
-url=https://gitlab.gnome.org/GNOME/gi-docgen.git
-push-url=ssh://git@gitlab.gnome.org:GNOME/gi-docgen.git
-revision=6e74594ae3fae1b5e7af0c1ae61d4720d53bc7c6
-depth=1
+[wrap-redirect]
+filename = gtk\subprojects\gi-docgen.wrap

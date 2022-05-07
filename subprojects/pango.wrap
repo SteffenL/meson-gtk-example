@@ -1,8 +1,2 @@
-[wrap-file]
-directory = pango-1.50.7
-source_url = https://download.gnome.org/sources/pango/1.50/pango-1.50.7.tar.xz
-source_filename = pango-1.50.7.tar.xz
-source_hash = 0477f369a3d4c695df7299a6989dc004756a7f4de27eecac405c6790b7e3ad33
-
-[provide]
-dependency_names = pango-1.50
+[wrap-redirect]
+filename = gtk\subprojects\pango.wrap

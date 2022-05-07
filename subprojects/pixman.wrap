@@ -1,6 +1,2 @@
-[wrap-git]
-directory=pixman
-url=https://gitlab.freedesktop.org/pixman/pixman.git
-push-url=git@gitlab.freedesktop.org:pixman/pixman.git
-revision=285b9a907caffeb979322e629d4e57aa42061b5a
-depth=1
+[wrap-redirect]
+filename = cairo\subprojects\pixman.wrap

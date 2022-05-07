@@ -1,8 +1,9 @@
-[wrap-file]
-directory = gtk-4.6.3
-source_url = https://download.gnome.org/sources/gtk/4.6/gtk-4.6.3.tar.xz
-source_filename = gtk-4.6.3.tar.xz
-source_hash = a57acd0e4482981700fdf86596c7413cb61ef47f75e4747fda809e8231b8d96c
+[wrap-git]
+directory=gtk
+url=https://gitlab.gnome.org/GNOME/gtk.git
+push-url=git@gitlab.freedesktop.org:GNOME/gtk.git
+revision=4.6.3
+depth=1
 
 [provide]
 dependency_names = gtk-4.0

@@ -1,6 +1,2 @@
-[wrap-git]
-directory=gdk-pixbuf
-url=https://gitlab.gnome.org/GNOME/gdk-pixbuf.git
-push-url=ssh://git@gitlab.gnome.org:GNOME/gdk-pixbuf.git
-revision=2.42.8
-depth=1
+[wrap-redirect]
+filename = gtk\subprojects\gdk-pixbuf.wrap

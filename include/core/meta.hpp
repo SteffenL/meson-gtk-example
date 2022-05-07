@@ -1,9 +1,11 @@
 #pragma once
 
+#include "core/exports.hpp"
+
 #include <string>
 
-namespace example::core {
+namespace example { namespace core {
 
-std::string getVersion();
+CORE_API std::string getVersion();
 
-}
+}}
