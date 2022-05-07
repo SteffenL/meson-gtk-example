@@ -11,5 +11,4 @@ app_exe = executable('app',
   sources : app_src + app_resources,
   include_directories : inc_dir,
   link_with : core_lib,
-  dependencies : gtk4_dep,
-  cpp_args : ['-DBUILDING_CORE'])
+  dependencies : gtk4_dep)
