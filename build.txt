@@ -1,0 +1,4 @@
+meson setup --prefix ~/libs builddir -Dmedia-gstreamer=disabled -Dmedia-ffmpeg=disabled -Dprint-cups=disabled -Dbuild-tests=false
+cd builddir
+ninja
+ninja install
