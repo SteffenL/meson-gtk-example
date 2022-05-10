@@ -1,7 +1,10 @@
 #include "core/meta.hpp"
+#include <utility>
 #include <gtk/gtk.h>
 
 void onActivate(GtkApplication* app) {
+    setenv("GTK_CSD", "0", 1);
+
     auto builder{gtk_builder_new()};
     gtk_builder_add_from_resource(builder, "/es/langn/examples/GtkExampleApp/main.ui", nullptr);
 

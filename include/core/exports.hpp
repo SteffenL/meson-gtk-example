@@ -1,13 +1,15 @@
 #pragma once
 
 #ifndef CORE_API
-#  ifdef CORE_STATIC
+#  if defined(CORE_STATIC)
 #    define CORE_API
-#  else
+#  elif defined(WIN32)
 #    ifdef BUILDING_CORE
 #      define CORE_API __declspec(dllexport)
 #    else
 #      define CORE_API __declspec(dllimport)
 #    endif
+#  else
+#    define CORE_API __attribute__((visibility("default")))
 #  endif
 #endif
